@@ -36,10 +36,10 @@ This is a foundational paper behind the architecture used by modern language mod
 ## 2. Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets
 
 - **Authors:** Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra
-- **Year:** 2022 (first posted to arXiv in January 2022; related ICLR 2021 workshop version)
+- **Year:** ICLR 2021 workshop version; expanded arXiv version posted January 2022
 - **Canonical paper:** https://arxiv.org/abs/2201.02177
 - **PDF:** https://arxiv.org/pdf/2201.02177
-- **Status:** arXiv preprint / workshop research
+- **Status:** Workshop paper (ICLR 2021) and expanded arXiv preprint (2022); not a standard ICLR conference main-track paper
 
 ### What question does it address?
 Why can a neural network continue training long after it has memorised its training set, and then suddenly begin to generalise well to unseen examples?
