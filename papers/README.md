@@ -31,3 +31,8 @@ Create one Markdown file per paper using this structure:
 - **Relevance to Intelligence Lab:**
 
 Do not treat a paper's abstract or author's claims as independent verification. Check the method and evidence.
+
+
+## Curated reading lists
+
+- [Foundational Reading Pair — 2026-11-04](./2026-11-04-foundational-reading-pair.md): Transformer foundations and grokking/generalisation.
