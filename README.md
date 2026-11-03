@@ -15,6 +15,10 @@ Build a rigorous understanding of how intelligent systems learn, represent infor
 3. **Memory and continual learning** — retention, retrieval, adaptation, catastrophic forgetting, and persistent memory.
 4. **Computational foundations** — mathematics, probability, information theory, and neuroscience-inspired models.
 
+## Progress dashboard
+
+Track topic status, worked evidence, and the next learning checkpoint in the [learning progress dashboard](evaluations/progress-dashboard.md). The [latest session journal](journal/2026-11-03-session-01-foundations.md) records what was practised and what still needs independent verification.
+
 ## Workspace map
 
 | Directory | Purpose |
