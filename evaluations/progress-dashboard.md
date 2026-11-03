@@ -1,17 +1,17 @@
 # Learning Progress Dashboard
 
-> Updated: 2026-11-03  
+> Updated: 2026-11-04  
 > Tracking rule: a topic is not marked mastered just because it was explained. Mastery requires an independent explanation, a derivation or implementation, and a fresh problem without step-by-step help.
 
 ## Current position
 
 | Field | Current status |
 |---|---|
-| Learning track | Mathematical foundations → calculus and optimisation |
-| Current module | Derivatives, gradients, chain rule, and backpropagation |
-| Current lesson | Session 01 — guided baseline and foundations |
-| Overall status | In progress |
-| Next checkpoint | Explain and calculate a complete chain-rule gradient independently |
+| Learning track | Mathematical foundations → machine learning foundations |
+| Current module | Baseline knowledge assessment |
+| Current lesson | Session 02 — calculus, linear algebra, probability, statistics, and core ML |
+| Overall status | Guided baseline completed; independent verification still in progress |
+| Next checkpoint | Independent problem set across all four areas, beginning with calculus and linear algebra |
 
 ## Topic tracker
 
@@ -22,55 +22,50 @@
 | Gradient descent | Practised with guidance | Updated scalar and two-variable weights using a learning rate | Implement a simple optimiser from scratch |
 | Partial derivatives | Practised with guidance | Calculated partial derivatives for (3x^2+2y^2) | Practise with a new multivariable function |
 | Chain rule | Practised with guidance | Applied local derivatives across multi-step expressions | Derive a new composite function independently |
-| Computational graphs | Introduced and practised | Traced (w \rightarrow a \rightarrow b \rightarrow L) in two examples | Draw a graph for a small neural-network layer |
-| Backpropagation | Introduced; understanding developing | Multiplied local derivatives backwards to obtain (dL/dw) | Explain why gradients flow backwards and complete a fresh example |
+| Computational graphs | Introduced and practised | Traced dependency chains in two examples | Draw a graph for a small neural-network layer |
+| Backpropagation | Introduced; understanding developing | Multiplied local derivatives backwards to obtain parameter gradients | Explain and calculate a fresh example independently |
+| Linear algebra: vectors and matrices | Practised with guidance | Correctly answered 10 guided questions covering vector operations, dot products, dimensions, matrix multiplication, matrix-vector products, and basic geometric meaning | Complete an independent mixed problem set |
+| Eigenvectors and transformations | Introduced and practised | Correctly identified that an eigenvector retains its direction under a transformation (while its magnitude may change) | Calculate eigenvalues and eigenvectors |
+| Probability and statistics | Practised with guidance | Correctly answered 10 guided questions on probability, independence, conditional probability, expectation, variance, standard deviation, Bayes' rule, correlation, samples, and MSE | Practise distributions, confidence intervals, hypothesis testing, and MLE |
+| Core machine learning | Practised with guidance | 10/11 guided questions correct; covered supervised learning, classification/regression, data splits, overfitting, underfitting, regularisation, bias–variance, leakage, precision/recall, and cross-validation | Complete independent scenario-based questions and implement a small evaluation workflow |
+| Overfitting diagnosis and remedies | Practised independently (one checkpoint) | Correctly diagnosed a 98% train / 72% test accuracy gap as overfitting; explained fitting noise and named L2, early stopping, and L1/feature selection as remedies | Apply remedies and compare validation results in an experiment |
 | Numerical gradient checking | Not started | — | Implement finite-difference checks |
 | Jacobians and Hessians | Not started | — | Study after multivariable chain rule |
+| Model evaluation implementation | Not started | — | Build a small classification evaluation notebook |
 
-## Latest worked example
+## Assessment snapshot — 2026-11-04
 
-Given:
+| Area | Guided result | Interpretation |
+|---|---:|---|
+| Linear algebra | 10/10 | Strong initial guided performance; independent transfer not yet tested |
+| Probability and statistics | 10/10 | Strong initial guided performance; advanced statistical topics remain untested |
+| Core machine learning | 10/11 | Good guided understanding; one bias–variance question was initially missed |
+| Calculus and optimisation | Guided examples completed | Independent chain-rule and gradient checkpoint still required |
 
-```
-a = wx
-b = a + 5
-L = b²
-x = 2, w = 3
-```
-
-Forward pass:
-- (a = 6)
-- (b = 11)
-- (L = 121)
-
-Backward pass:
-- (dL/db = 22)
-- (db/da = 1)
-- (da/dw = 2)
-- (dL/dw = 22 \times 1 \times 2 = 44)
-
-Interpretation: the positive gradient means a small increase in (w) increases the loss locally. Gradient descent therefore updates in the negative-gradient direction.
+These are learning checks, not formal exam scores or proof of mastery.
 
 ## Learning observations
 
-- Correctly computed several derivatives and gradient-descent updates during guided practice.
-- Correctly identified the dependency chain in computational-graph examples.
-- Needed clarification that backpropagation traces how the final loss depends on earlier weights; it is not the loss itself travelling through the network.
-- Current evidence shows promising guided understanding, but independent mastery has not yet been established.
+- Correctly distinguished high bias from high variance after feedback.
+- Correctly explained why a large training–testing performance gap indicates overfitting.
+- Suggested three valid overfitting remedies: L2 regularisation, early stopping, and L1 regularisation / feature selection.
+- Demonstrated good guided accuracy in linear algebra and probability/statistics.
+- Independent problem-solving and implementation evidence is still limited. Keep topic statuses conservative.
 
 ## Next session
 
-1. Revisit the chain rule without hints.
-2. Draw a computational graph from a short sequence of equations.
-3. Calculate all local derivatives and combine them.
-4. Explain the sign and magnitude of the final gradient.
-5. Introduce a small neural-network example only after the above is secure.
+1. Run a short independent calculus and chain-rule checkpoint.
+2. Test linear algebra with fresh matrix and vector problems.
+3. Add probability distributions and basic statistical inference.
+4. Apply core ML concepts to a small end-to-end evaluation example.
+5. Update statuses only when independent evidence supports the change.
 
 ## Progress history
 
 | Date | Session | Result |
 |---|---|---|
 | 2026-11-03 | Session 01 — calculus, optimisation, and backpropagation foundations | Guided practice completed; independent checkpoint pending |
+| 2026-11-04 | Session 02 — baseline knowledge assessment | Linear algebra 10/10 and probability/statistics 10/10 guided; core ML 10/11 guided; one independent overfitting checkpoint completed |
 
 ## Evidence policy
 
