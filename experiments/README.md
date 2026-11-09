@@ -1,27 +1,33 @@
 # Experiments
 
+This directory contains reproducible practical experiments, their notebooks, configurations, and result notes.
+
+## Experiments
+
+- [Fraud classification](fraud-classification/README.md) — class imbalance, scaling, SMOTE, class weighting, threshold tuning, and planned model comparisons.
+
+## Experiment record standard
+
 Every experiment should be understandable and reproducible by someone who did not run it.
 
-## Experiment record
-
-- **Question / hypothesis:**
-- **Motivation and related work:**
-- **Model and architecture:**
-- **Dataset and provenance:**
-- **Preprocessing:**
-- **Baselines:**
-- **Variables and controls:**
-- **Metrics:**
-- **Compute and environment:**
-- **Random seeds:**
-- **Procedure:**
-- **Results:**
-- **Ablations:**
-- **Negative results:**
-- **Interpretation:**
-- **Alternative explanations:**
-- **Limitations:**
-- **Next experiment:**
+- **Question / hypothesis**
+- **Motivation and related work**
+- **Model and architecture**
+- **Dataset and provenance**
+- **Preprocessing**
+- **Baselines**
+- **Variables and controls**
+- **Metrics**
+- **Compute and environment**
+- **Random seeds**
+- **Procedure**
+- **Results**
+- **Ablations**
+- **Negative results**
+- **Interpretation**
+- **Alternative explanations**
+- **Limitations**
+- **Next experiment**
 
 ## Standards
 
