@@ -525,3 +525,8 @@ A successful 90 days means:
 - A prioritised next 3–6 month plan based on actual gaps and research evidence.
 
 This is a serious launchpad for continued research—not mastery of every topic, a guaranteed publication or guaranteed frontier-lab employment.
+
+
+## Live topic checklist
+
+Track every topic and subtopic with GitHub Markdown checkboxes in the [90-Day Topic & Subtopic Checklist](90-day-topic-checklist.md). Tick items only after practice and evidence; the checklist distinguishes exposure from independent mastery.
