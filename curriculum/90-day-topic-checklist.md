@@ -14,7 +14,7 @@
 - [x] Threshold selection under recall and alert-volume constraints.
 - [x] Feature interactions and permutation feature importance.
 - [ ] Complete feature-ablation experiment and its validation-based interpretation.
-- [ ] Complete the independent foundations diagnostic.
+- [x] Complete the baseline foundations diagnostic (10/10 in linear algebra, calculus/optimisation practice, and probability/statistics; probability/statistics independence still needs verification).
 
 ## A. Mathematical foundations
 
@@ -23,16 +23,16 @@
 - [ ] Vector spaces, span, basis, dimension, rank, null space and column space
 - [ ] Dot products, norms, distances and cosine similarity
 - [ ] Orthogonality, orthonormal bases, projections and least squares
-- [ ] Eigenvalues, eigenvectors, diagonalisation and geometric interpretation
+- [x] Eigenvalues and eigenvectors: characteristic equations, independent calculations and verification of Av = λv; diagonalisation remains pending
 - [ ] Singular value decomposition (SVD), low-rank approximation and matrix factorisation
 - [ ] Positive-definite matrices and quadratic forms
-- [ ] PCA: covariance matrix, principal directions, explained variance and loadings
+- [x] PCA concepts: eigenvalues/variance, principal components, explained variance, information loss and feature loadings; implementation remains pending
 
 ### Calculus and matrix calculus
 - [ ] Limits and continuity as needed for optimisation
-- [ ] Derivatives, partial derivatives and directional derivatives
-- [ ] Chain rule and computational graphs
-- [ ] Gradients, Jacobians and Hessians
+- [x] Derivatives and partial derivatives — practised and independently demonstrated; directional derivatives remain pending
+- [x] Chain rule and computational graphs — independently demonstrated
+- [ ] Gradients, Jacobians and Hessians (gradient intuition/practice covered; Jacobians and Hessians remain pending)
 - [ ] Taylor approximation and curvature intuition
 - [ ] Gradients of common ML losses and simple matrix expressions
 
@@ -92,7 +92,7 @@
 - [ ] No Free Lunch intuition and limits of benchmark claims
 
 ## C. Optimisation
-- [ ] Objective functions, loss surfaces and gradients
+- [x] Objective functions, gradients and gradient-descent optimisation — practised; loss-surface analysis remains pending
 - [ ] Batch gradient descent, stochastic gradient descent and mini-batches
 - [ ] Momentum and Nesterov momentum
 - [ ] Adagrad, RMSProp, Adam and AdamW
