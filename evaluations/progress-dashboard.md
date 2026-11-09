@@ -3,7 +3,9 @@
 > Updated: 2026-11-09  
 > Tracking rule: a topic is not marked mastered just because it was explained. Mastery requires an independent explanation, a derivation or implementation, and a fresh problem without step-by-step help.
 
-## Current position\n\n**Active pace:** Aggressive — target 30–36 focused hours per week, with a lighter/recovery day. Follow the [12-month accelerated roadmap](../curriculum/roadmap-12-month-accelerated.md). The original 24-month curriculum remains a slower reference path.
+## Current position
+
+**Active pace:** Aggressive — target 30–36 focused hours per week, with a lighter/recovery day. Follow the [12-month accelerated roadmap](../curriculum/roadmap-12-month-accelerated.md). The original 24-month curriculum remains a slower reference path.
 
 | Field | Current status |
 |---|---|
@@ -11,7 +13,7 @@
 | Current module | 12-month accelerated Intelligence Lab roadmap — Month 1 foundations sprint |
 | Current lesson | Session 03 — independent eigenvalue/eigenvector work, PCA, and classification evaluation |
 | Overall status | Accelerated plan active; foundational assessment and independent verification in progress |
-| Next checkpoint | Complete the first two-week sprint: confusion matrix, PCA implementation, and a leakage-safe classification baseline |
+| Next checkpoint | Compare Random Forest with Logistic Regression plus engineered interaction features using validation-based model selection; continue PCA implementation and independent metric calculations |
 
 ## Topic tracker
 
@@ -31,7 +33,22 @@
 | Overfitting diagnosis and remedies | Practised independently (one checkpoint) | Correctly diagnosed a 98% train / 72% test accuracy gap as overfitting; explained fitting noise and named L2, early stopping, and L1/feature selection as remedies | Apply remedies and compare validation results in an experiment |
 | Numerical gradient checking | Not started | — | Implement finite-difference checks |
 | Jacobians and Hessians | Not started | — | Study after multivariable chain rule |
-| PCA and dimensionality reduction | Introduced and practised with guidance | Explained eigenvalues as explained variance, eigenvectors as component directions, information loss, and why low-variance components may still predict a target | Implement PCA, inspect loadings, and compare downstream model performance |\n| Classification metrics and thresholds | Practised with guidance | Correctly interpreted 95% recall and 40% precision; explained false positives and the usual precision–recall effect of raising a threshold | Calculate a confusion matrix and evaluate precision, recall, specificity, and F1 independently |\n| Model evaluation implementation | Not started | — | Build a small classification evaluation notebook |
+| PCA and dimensionality reduction | Introduced and practised with guidance | Explained eigenvalues as explained variance, eigenvectors as component directions, information loss, and why low-variance components may still predict a target | Implement PCA, inspect loadings, and compare downstream model performance |
+| Classification metrics and thresholds | Practised with guidance | Interpreted baseline/SMOTE/class-weighted confusion matrices; correctly predicted that raising the threshold generally reduces FP and recall while increasing FN; interpreted validation and test threshold results | Independently calculate precision, recall, specificity, and F1 from a fresh confusion matrix; explain why test data must not be used for tuning |
+| Model evaluation implementation | Practised with guidance | Built and interpreted baseline, SMOTE, class-weighted, and threshold-tuned evaluations; read confusion matrices and compared precision/recall/F1 | Independently calculate metrics from a fresh confusion matrix and build a second model comparison |
+
+## Current practical experiment — fraud classification (2026-11-09)
+
+The [fraud-classification experiment](../experiments/fraud-classification/README.md) now contains the notebook, result record, and next-step hypothesis.
+
+| Approach | Test recall | Test precision | False positives | Fraud alerts |
+|---|---:|---:|---:|---:|
+| Baseline Logistic Regression | 4.76% | 100.00% | 0 | 1 |
+| SMOTE + Logistic Regression | 85.71% | 3.61% | 481 | 499 |
+| Class-weighted Logistic Regression (0.50) | 90.48% | 3.73% | 491 | 510 |
+| Class-weighted, validation-selected threshold 0.80 | 28.57% | 5.61% | 101 | 107 |
+
+**Conclusion:** No tested threshold met both the exercise constraints (recall >= 90% and <= 100 alerts on the 2,000-row test set). The test set was kept separate from threshold selection. The next experiment is Random Forest versus Logistic Regression with explicit interaction features.
 
 ## Assessment snapshot — 2026-11-09
 
@@ -54,18 +71,20 @@ These are learning checks, not formal exam scores or proof of mastery.
 
 ## Next session
 
-1. Run a short independent calculus and chain-rule checkpoint.
-2. Test linear algebra with fresh matrix and vector problems.
-3. Add probability distributions and basic statistical inference.
-4. Apply core ML concepts to a small end-to-end evaluation example.
-5. Update statuses only when independent evidence supports the change.
+1. Implement and compare Random Forest against Logistic Regression with explicit interaction features.
+2. Keep model/threshold selection on validation data and preserve the held-out test set.
+3. Calculate confusion-matrix metrics independently from a fresh example.
+4. Implement PCA, inspect loadings, and test downstream usefulness.
+5. Continue fresh independent mathematics and statistics checkpoints.
 
 ## Progress history
 
 | Date | Session | Result |
 |---|---|---|
 | 2026-11-03 | Session 01 — calculus, optimisation, and backpropagation foundations | Guided practice completed; independent checkpoint pending |
-| 2026-11-04 | Session 02 — baseline knowledge assessment | Linear algebra 10/10 and probability/statistics 10/10 guided; core ML 10/11 guided; one independent overfitting checkpoint completed |\n| 2026-11-09 | Session 03 — independent linear algebra, PCA, and classification metrics | One complete eigenvalue/eigenvector problem solved independently; several calculus checkpoints completed; PCA and classification evaluation concepts practised with guidance |
+| 2026-11-04 | Session 02 — baseline knowledge assessment | Linear algebra 10/10 and probability/statistics 10/10 guided; core ML 10/11 guided; one independent overfitting checkpoint completed |
+| 2026-11-09 | Session 03 — independent linear algebra, PCA, and classification metrics | One complete eigenvalue/eigenvector problem solved independently; several calculus checkpoints completed; PCA and classification evaluation concepts practised with guidance |
+| 2026-11-09 | Session 04 — imbalanced fraud classification and threshold trade-offs | Compared baseline, SMOTE, class weighting, and validation-based threshold tuning; correctly reasoned about nonlinear boundaries and feature interactions; all practical interpretation remains guided evidence |
 
 ## Evidence policy
 
