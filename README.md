@@ -47,9 +47,9 @@ The active accelerated target is 30–36 focused hours per week, generally 5–6
 
 - [x] Repository selected and connected
 - [x] Initial curriculum structure
-- [ ] Baseline knowledge assessment
+- [x] Baseline knowledge assessment
 - [ ] First mathematical notebook
-- [ ] First paper review
+- [x] First paper review
 - [ ] First reproducible experiment
 
 See the [12-month accelerated roadmap](curriculum/roadmap-12-month-accelerated.md) to begin. The original [24-month curriculum](curriculum/roadmap.md) remains available as a slower reference path.
