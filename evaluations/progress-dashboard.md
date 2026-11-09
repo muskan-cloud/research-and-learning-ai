@@ -3,15 +3,15 @@
 > Updated: 2026-11-09  
 > Tracking rule: a topic is not marked mastered just because it was explained. Mastery requires an independent explanation, a derivation or implementation, and a fresh problem without step-by-step help.
 
-## Current position
+## Current position\n\n**Active pace:** Aggressive — target 30–36 focused hours per week, with a lighter/recovery day. Follow the [12-month accelerated roadmap](../curriculum/roadmap-12-month-accelerated.md). The original 24-month curriculum remains a slower reference path.
 
 | Field | Current status |
 |---|---|
 | Learning track | Mathematical foundations → machine learning foundations |
-| Current module | Baseline knowledge assessment |
+| Current module | 12-month accelerated Intelligence Lab roadmap — Month 1 foundations sprint |
 | Current lesson | Session 03 — independent eigenvalue/eigenvector work, PCA, and classification evaluation |
-| Overall status | Guided baseline completed; independent verification and applied foundations in progress |
-| Next checkpoint | Confusion-matrix calculations, PCA implementation, and additional independent mathematics problems |
+| Overall status | Accelerated plan active; foundational assessment and independent verification in progress |
+| Next checkpoint | Complete the first two-week sprint: confusion matrix, PCA implementation, and a leakage-safe classification baseline |
 
 ## Topic tracker
 
