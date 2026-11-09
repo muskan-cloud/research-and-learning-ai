@@ -21,16 +21,15 @@ Track topic status, worked evidence, and the next learning checkpoint in the [le
 
 ## Hands-on practice
 
-- [Fraud classification: scaling, SMOTE and evaluation (Jupyter / Colab notebook)](notebooks/2026-11-09-fraud-classification-pipeline.ipynb)
+- [Fraud classification experiment](experiments/fraud-classification/README.md) — [Jupyter notebook](experiments/fraud-classification/fraud-classification-pipeline.ipynb) · [Open in Colab](https://colab.research.google.com/github/muskan-cloud/research-and-learning-ai/blob/main/experiments/fraud-classification/fraud-classification-pipeline.ipynb)
 
 ## Workspace map
 
 | Directory | Purpose |
 |---|---|
 | `curriculum/` | Structured learning roadmap and topic notes |
-| `notebooks/` | Hands-on Jupyter notebooks and practical exercises |
 | `papers/` | Reading list, paper reviews, and literature synthesis |
-| `experiments/` | Reproducible experiments, baselines, and results |
+| `experiments/` | Reproducible experiment folders containing notebooks, baselines, results, and analysis |
 | `journal/` | Weekly reflections and learning records |
 | `evaluations/` | Conceptual checks and research-readiness reviews |
 | `digests/` | Weekly research monitoring outputs |
@@ -55,6 +54,6 @@ The active accelerated target is 30–36 focused hours per week, generally 5–6
 - [x] Baseline knowledge assessment
 - [ ] First mathematical notebook
 - [x] First paper review
-- [ ] First reproducible experiment
+- [x] First reproducible experiment
 
 See the [12-month accelerated roadmap](curriculum/roadmap-12-month-accelerated.md) to begin. The original [24-month curriculum](curriculum/roadmap.md) remains available as a slower reference path.
