@@ -1,6 +1,6 @@
 # 24-Month Research Curriculum — Slower Reference Path
 
-> **Superseded as the active plan on 2026-11-09.** The active aggressive plan is the [12-month accelerated roadmap](roadmap-12-month-accelerated.md). Keep this version as an optional slower path; use the accelerated roadmap for current scheduling and milestones.
+> **Reference document only.** The active plan is the [90-day deep research curriculum](roadmap-3-month-accelerated.md), designed around 3 focused hours per day. Use that document for current scheduling, detailed topics and evidence gates.
 
 
 The roadmap is a scaffold, not a rigid deadline. Move faster or slower based on demonstrated understanding. Do not advance merely because a calendar period has ended.
