@@ -2,7 +2,7 @@
 
 **A long-term research workspace for studying the computational principles of intelligence.**
 
-This repository is the durable source of truth for the learning roadmap, research notes, paper reviews, experiments, and weekly research digests.
+This repository is the durable source of truth for the learning roadmap, research notes, paper reviews, experiments, and weekly research digests. The active plan is the [12-month accelerated roadmap](curriculum/roadmap-12-month-accelerated.md), running alongside foundations, research, and engineering tracks from the start.
 
 ## Mission
 
@@ -17,7 +17,7 @@ Build a rigorous understanding of how intelligent systems learn, represent infor
 
 ## Progress dashboard
 
-Track topic status, worked evidence, and the next learning checkpoint in the [learning progress dashboard](evaluations/progress-dashboard.md). The [latest session journal](journal/2026-11-03-session-01-foundations.md) records what was practised and what still needs independent verification.
+Track topic status, worked evidence, and the next learning checkpoint in the [learning progress dashboard](evaluations/progress-dashboard.md). The [latest session journal](journal/2026-11-09-session-03-pca-and-classification.md) records what was practised and what still needs independent verification.
 
 ## Workspace map
 
@@ -41,15 +41,7 @@ Track topic status, worked evidence, and the next learning checkpoint in the [le
 
 ## Suggested weekly rhythm
 
-A sustainable starting allocation is six hours per week:
-
-- 1 hour — mathematical foundations
-- 1 hour — machine-learning theory
-- 1 hour — paper reading
-- 2 hours — implementation and experiments
-- 1 hour — journal and review
-
-Adjust this allocation as work commitments and research priorities change.
+The active accelerated target is 30–36 focused hours per week, generally 5–6 hours on six study days, with one lighter/recovery day. The detailed allocation across mathematics, data/cloud engineering, deep learning, papers, experiments, and review is in the [accelerated roadmap](curriculum/roadmap-12-month-accelerated.md). Reduce the load when needed rather than sacrificing sleep, health, or sustainable consistency.
 
 ## Status
 
@@ -60,4 +52,4 @@ Adjust this allocation as work commitments and research priorities change.
 - [ ] First paper review
 - [ ] First reproducible experiment
 
-See [the 24-month roadmap](curriculum/roadmap.md) to begin.
+See the [12-month accelerated roadmap](curriculum/roadmap-12-month-accelerated.md) to begin. The original [24-month curriculum](curriculum/roadmap.md) remains available as a slower reference path.
