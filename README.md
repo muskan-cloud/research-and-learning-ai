@@ -19,11 +19,16 @@ Build a rigorous understanding of how intelligent systems learn, represent infor
 
 Track topic status, worked evidence, and the next learning checkpoint in the [learning progress dashboard](evaluations/progress-dashboard.md). The [latest session journal](journal/2026-11-09-session-03-pca-and-classification.md) records what was practised and what still needs independent verification.
 
+## Hands-on practice
+
+- [Fraud classification: scaling, SMOTE and evaluation (Jupyter / Colab notebook)](notebooks/2026-11-09-fraud-classification-pipeline.ipynb)
+
 ## Workspace map
 
 | Directory | Purpose |
 |---|---|
 | `curriculum/` | Structured learning roadmap and topic notes |
+| `notebooks/` | Hands-on Jupyter notebooks and practical exercises |
 | `papers/` | Reading list, paper reviews, and literature synthesis |
 | `experiments/` | Reproducible experiments, baselines, and results |
 | `journal/` | Weekly reflections and learning records |
