@@ -10,6 +10,7 @@
 
 - [x] Classification evaluation foundations: confusion matrix, precision, recall, F1 and class-imbalance trade-offs.
 - [x] Leakage-aware train/validation/test workflow and stratified splitting.
+- [x] Repeated stratified cross-validation: compared matched 8-feature and 6-feature Random Forests across 15 folds; interpreted paired differences and variability.
 - [x] Logistic Regression and Random Forest applied to the fraud-classification experiment.
 - [x] Threshold selection under recall and alert-volume constraints.
 - [x] Feature interactions and permutation feature importance.
@@ -68,6 +69,7 @@
 - [x] Preprocessing and leakage prevention — applied in split/fit/evaluation workflow
 
 ### Evaluation and reliability
+- [x] Repeated stratified cross-validation and paired fold comparison — 5 folds × 3 repeats; interpreted mean, standard deviation and fold wins without claiming independence.
 - [x] Train/validation/test separation and stratified splitting
 - [x] Confusion matrix: TP, FP, TN and FN
 - [x] Accuracy, precision, recall and F1
