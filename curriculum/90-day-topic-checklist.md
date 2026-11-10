@@ -13,7 +13,7 @@
 - [x] Logistic Regression and Random Forest applied to the fraud-classification experiment.
 - [x] Threshold selection under recall and alert-volume constraints.
 - [x] Feature interactions and permutation feature importance.
-- [ ] Complete feature-ablation experiment and its validation-based interpretation.
+- [x] Complete feature-ablation experiment and controlled same-task holdout replication; original 8-feature Random Forest outperformed reduced 6-feature model on PR-AUC, precision and F1.
 - [x] Complete the baseline foundations diagnostic (10/10 in linear algebra, calculus/optimisation practice, and probability/statistics; probability/statistics independence still needs verification).
 
 ## A. Mathematical foundations
