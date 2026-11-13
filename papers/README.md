@@ -35,5 +35,6 @@ Do not treat a paper's abstract or author's claims as independent verification. 
 
 ## Curated reading lists
 
+- [Generalisation, Memorisation & Double Descent — 2026-11-13](./2026-11-13-generalisation-and-double-descent.md): Why neural networks can memorise, and why test error can rise and fall as effective model complexity changes.
 - [Memory and Mechanisms Reading Pair — 2026-11-06](./2026-11-06-memory-and-mechanisms-reading-pair.md): Test-time neural memory and mechanistic interpretability in a production language model.
 - [Foundational Reading Pair — 2026-11-04](./2026-11-04-foundational-reading-pair.md): Transformer foundations and grokking/generalisation.
